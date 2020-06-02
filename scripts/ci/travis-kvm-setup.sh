@@ -7,8 +7,8 @@ TEST_RUNNER="scripts/ci/fedora-test-runner.sh"
 #
 # Variables for controlling the Fedora Image version and download URLs.
 #
-MAJOR_VERSION="32"
-MINOR_VERSION="1.6"
+MAJOR_VERSION="31"
+MINOR_VERSION="1.9"
 
 IMAGE_BASE="Fedora-Cloud-Base-$MAJOR_VERSION-$MINOR_VERSION.x86_64.raw.xz"
 IMAGE_BASE_URL="https://download.fedoraproject.org/pub/fedora/linux/releases/$MAJOR_VERSION/Cloud/x86_64/images/$IMAGE_BASE"
