@@ -129,6 +129,7 @@ before_script:
 
 script:
   # Start by installing everything into $DESTDIR
+  - false
   - make install $EXPLICIT_MAKE_VARS -k
   - make install-pywrap $EXPLICIT_MAKE_VARS -k
   - make install-rubywrap $EXPLICIT_MAKE_VARS -k
